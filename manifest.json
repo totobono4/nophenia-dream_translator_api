@@ -21,8 +21,8 @@
 			"tags": []
 		}
 	},
-	"name": "tranlaste_dream_api",
+	"name": "dream_translator_api",
 	"namespace": "totobono4",
 	"version_number": "0.0.1",
-	"website_url": "https://github.com/exampleauthor/examplemod"
+	"website_url": "https://github.com/totobono4/nophenia-dream_translator_api"
 }
