@@ -7,7 +7,7 @@ var flags : Array[AtlasTexture]
 var pause_menu : Node
 var option_language : Node
 
-func _ready() -> void:
+func _ready() -> void:	
 	get_tree().node_added.connect(on_node_added)
 	game.config_updated.connect(_on_apply_config)
 
@@ -34,7 +34,4 @@ func _on_apply_config() -> void:
 func _on_option_language_pressed() -> void :
 	config.language = (config.language + 1) % (4 + translation_count)
 	pause_menu.call("_upd_option_language")
-	game.apply_config()
-
-func apply_config():
 	game.apply_config()

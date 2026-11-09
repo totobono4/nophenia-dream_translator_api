@@ -1,6 +1,0 @@
-[gd_scene format=3 uid="uid://d12ckw77mj47d"]
-
-[ext_resource type="Script" uid="uid://byltfue5dd3wp" path="res://mods-unpacked/totobono4-dream_translator_api/scripts/dream_translator.gd" id="1_mclwj"]
-
-[node name="dream_translator" type="Node" unique_id=737539583]
-script = ExtResource("1_mclwj")
